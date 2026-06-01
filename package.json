@@ -1,0 +1,47 @@
+{
+  "name": "bizhome-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set PORT=4030 &&  next dev --turbopack",
+    "bun:install": "bun install",
+    "bun:dev": "set PORT=4030 && bun run next dev --turbopack",
+    "bun:build": "bun run next build",
+    "bun:start": "set PORT=4030 && bun run next start",
+    "docker:db": "docker compose -f docker-compose.local.yml up -d",
+    "docker:db:down": "docker compose -f docker-compose.local.yml down",
+    "build": "next build",
+    "start": " set PORT=4030 && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@hookform/resolvers": "^5.0.1",
+    "@mui/material": "^7.0.2",
+    "@mui/styled-engine-sc": "^7.0.2",
+    "@tanstack/react-query": "^5.80.6",
+    "axios": "^1.9.0",
+    "@supabase/supabase-js": "^2.35.0",
+    "framer-motion": "^12.9.2",
+    "js-cookie": "^3.0.5",
+    "next": "^16.0.7",
+    "next-auth": "^4.24.11",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-hook-form": "^7.56.1",
+    "react-icons": "^5.5.0",
+    "react-type-animation": "^3.2.0",
+    "styled-components": "^6.1.17",
+    "swiper": "^11.2.6",
+    "ws": "^8.13.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "baseline-browser-mapping": "^2.9.19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.7"
+  }
+}

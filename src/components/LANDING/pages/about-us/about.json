@@ -1,0 +1,58 @@
+{
+  "whatWhyWhere": [
+    {
+      "title": "What we do",
+      "description": "We connect landlords, tenants, property managers, and service technicians through a seamless platform. From listing properties and managing applications to handling maintenance and payments, BizHome makes property management simple, transparent, and efficient."
+    },
+    {
+      "title": "Why we do it",
+      "description": "Managing properties can be complex and stressful. We exist to make every step easier, safer, and more reliable for everyone involved — helping landlords, tenants, and managers save time, reduce hassles, and have peace of mind."
+    },
+    {
+      "title": "Where we’re going",
+      "description": "We’re building the future of property management — smarter, faster, and more connected. Our goal is to expand services, improve automation, and create a trusted ecosystem where all users can manage, rent, and maintain properties with confidence."
+    }
+  ],
+
+  "pledge": [
+    {
+      "title": "Simplified Property Management",
+      "description": "We make it easy for landlords and property managers to list, rent, and maintain properties without confusion or delays."
+    },
+    {
+      "title": "Reliable Communication",
+      "description": "We ensure tenants, landlords, and technicians can connect safely and transparently, keeping everyone informed at every step."
+    },
+    {
+      "title": "Timely Maintenance & Support",
+      "description": "Maintenance requests are tracked and handled efficiently, and our support team is always ready to help solve issues quickly."
+    },
+    {
+      "title": "Secure Transactions",
+      "description": "All payments and sensitive information are processed securely, giving peace of mind to landlords, tenants, and service professionals alike."
+    }
+  ],
+
+  "leadership": [
+    {
+      "name": "Amin Rahman",
+      "role": "Co-Founder & CEO",
+      "image": "/images/leadership/amin.png"
+    },
+    {
+      "name": "Lina Kareem",
+      "role": "Co-Founder & COO",
+      "image": "/images/leadership/lina.png"
+    },
+    {
+      "name": "Tarek Bashir",
+      "role": "CTO",
+      "image": "/images/leadership/tarek.png"
+    },
+    {
+      "name": "Mariam Yousef",
+      "role": "Head of Product",
+      "image": "/images/leadership/mariam.png"
+    }
+  ]
+}
