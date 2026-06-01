@@ -3,16 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "set PORT=4030 &&  next dev --turbopack",
-    "bun:install": "bun install",
-    "bun:dev": "set PORT=4030 && bun run next dev --turbopack",
-    "bun:build": "bun run next build",
-    "bun:start": "set PORT=4030 && bun run next start",
-    "docker:db": "docker compose -f docker-compose.local.yml up -d",
-    "docker:db:down": "docker compose -f docker-compose.local.yml down",
+    "dev": "set PORT=4030 && next dev --turbopack",
     "build": "next build",
-    "start": " set PORT=4030 && next start",
-    "lint": "next lint"
+    "start": "set PORT=4030 && next start",
+    "lint": "next lint",
+    "docker:db": "docker compose -f docker-compose.local.yml up -d",
+    "docker:db:down": "docker compose -f docker-compose.local.yml down"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
